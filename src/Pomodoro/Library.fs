@@ -55,4 +55,4 @@ module Glue =
         match Console.Read() with
         | _ -> 
             cancellationSource.Cancel()
-            exit 0
+            0
