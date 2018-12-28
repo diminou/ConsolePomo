@@ -1,6 +1,6 @@
-module Pomodoro.App
+namespace Pomodoro
 
-open Glue
-
-[<EntryPoint>]
-let main argv = Glue.listenPomo()
+module Main =
+    
+    [<EntryPoint>]
+    let main argv = Glue.listenPomo()
